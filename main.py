@@ -2,6 +2,8 @@ import gradio as gr
 from app.pdf_loader import load_pdf
 from app.vector_store import store_and_retrieve_docs
 from app.qa_chain import run_llm_chain
+from dotenv import load_dotenv
+load_dotenv()
 
 retriever = None
 

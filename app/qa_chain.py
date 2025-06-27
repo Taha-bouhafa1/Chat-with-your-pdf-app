@@ -1,5 +1,5 @@
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 
 def run_llm_chain(question, retriever):
     llm = ChatOpenAI(
