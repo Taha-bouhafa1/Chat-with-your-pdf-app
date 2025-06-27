@@ -1,0 +1,8 @@
+langchain
+chromadb
+openai
+gradio
+python-dotenv
+PyMuPDF
+tiktoken
+sentence-transformers
