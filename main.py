@@ -5,10 +5,8 @@ from app.pdf_loader import load_pdf
 from app.vector_store import store_and_retrieve_docs
 from app.qa_chain import run_llm_chain
 
-# Load environment variables from .env file
 load_dotenv()
 
-# --- Page config ---
 st.set_page_config(
     page_title="📚 AI-Powered PDF Assistant",
     page_icon="📄",
@@ -16,7 +14,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# --- Custom CSS for artistic style ---
 st.markdown(
     """
     <style>
