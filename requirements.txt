@@ -1,8 +1,8 @@
+streamlit
 langchain
-chromadb
-openai
-gradio
+langchain-community
+langchain-groq
+langchain-google-genai
+faiss-cpu
+PyPDF2
 python-dotenv
-PyMuPDF
-tiktoken
-sentence-transformers
