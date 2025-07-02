@@ -11,6 +11,13 @@ Interact intelligently with PDF documents using this lightweight app built with 
 
 ---
 
+
+## Architecture Diagram
+
+![Architecture Diagram](https://github.com/Taha-bouhafa1/Chat-with-your-pdf-app/blob/main/assets/chatbot-pdf-diagr.png)
+
+---
+
 ## Features
 
 - Upload and process PDF files  
